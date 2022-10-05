@@ -5,6 +5,8 @@
     android:id="@+id/detailLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:parentActivityName=".MainActivity"
+    android:exported="true"
     tools:context=".DetailActivity">
 
     <ImageView
